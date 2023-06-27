@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-box{
+  height:80vh;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  box-shadow: 5px 5px grey;
+}

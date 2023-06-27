@@ -1,0 +1,64 @@
+Project - Contacts App 
+Description: Contacts App to craret and save contact in db, through which we can easily manage like edit delete, amke fav,share contact to others
+we can add contacts in group also.
+Technology: HTML,CSS JS,REACT,NODE EXPRESS,MONGO
+
+
+Task List
+1>create repo with contacts_app-done
+2>inside contacts_app craete two folder frontend,backend-done
+3>frontend we can create with create-react-app tool-done
+4>create login page --inprogress
+5>cretae signup page --inprogress
+6>create contacts list page 
+7>after login go to dashboard page
+8>from dashboard we can create contacts,list contacts,group,Add group, logout
+9>create contacts page --- form with name,phone address,email,pic
+10>list page as a card of contacts
+11>edit contacts 
+12>delete conatcts
+13>favourite contacts
+14>share conatct form
+15>create group form
+16>add contact to group
+17>list of fav contacts page 
+18>list of groups with specif group data--
+
+
+backend-
+
+1>create the routes--user,group,contacts,
+2>craete models--user,contacts,group--
+3>api--
+        login,signup,createcontcats,getcontacts,deletecontacts,editcontacts,create group,addgroup
+        sharecontact,favconatct,getfavconcta,getgroupByName,getgroups,
+schema for user--
+email:string,
+passwrod :string---
+
+{
+    _id,email,password
+}
+
+schema for contacts:
+loggedin_user_id:Objectid ,
+name:
+email
+phone
+address
+pic:name
+active:Boolean
+fav:Boolean
+_id:
+
+schema for group
+
+{
+    groupname,
+    contact_id:
+}
+
+
+
+
+
